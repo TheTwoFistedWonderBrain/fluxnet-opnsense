@@ -324,11 +324,17 @@
     <backup>
       <git version="1.0.0">
         <enabled>1</enabled>
-        <url>https://github.com/TheTwoFistedWonderBrain/fluxnet-opnsense.git</url>
+        <url>ssh://github.com/TheTwoFistedWonderBrain/fluxnet-opnsense.git</url>
         <branch>main</branch>
-        <privkey/>
-        <user>xenonflux@gmail.com</user>
-        <password>ifQ4^&amp;FMVtaSq8</password>
+        <privkey>-----BEGIN OPENSSH PRIVATE KEY-----&#xD;
+b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW&#xD;
+QyNTUxOQAAACBWM2/mrO7gBi2gqr7Ga19o0e11XF/+mpgleCOYuyPnGwAAAKBdjKS8XYyk&#xD;
+vAAAAAtzc2gtZWQyNTUxOQAAACBWM2/mrO7gBi2gqr7Ga19o0e11XF/+mpgleCOYuyPnGw&#xD;
+AAAEBiwOu7oCoH/E/UswglI83FcRjlSWmkxdq78g/ubWLPOFYzb+as7uAGLaCqvsZrX2jR&#xD;
+7XVcX/6amCV4I5i7I+cbAAAAGm1hdHRAd2l0aGV5ZXN1bmNsb3VkZWQuY29tAQID&#xD;
+-----END OPENSSH PRIVATE KEY-----</privkey>
+        <user>git</user>
+        <password/>
       </git>
     </backup>
     <backupcount>10</backupcount>
@@ -1749,7 +1755,7 @@
   <revision>
     <username>xenon@10.1.25.42</username>
     <description>/diag_backup.php made changes</description>
-    <time>1721858771.8168</time>
+    <time>1721859289.9562</time>
   </revision>
   <OPNsense>
     <captiveportal version="1.0.1">
