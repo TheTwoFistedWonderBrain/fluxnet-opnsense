@@ -933,36 +933,6 @@ AAAEBiwOu7oCoH/E/UswglI83FcRjlSWmkxdq78g/ubWLPOFYzb+as7uAGLaCqvsZrX2jR&#xD;
         <description>/firewall_nat_edit.php made changes</description>
       </created>
     </rule>
-    <rule>
-      <protocol>tcp</protocol>
-      <interface>opt4</interface>
-      <category/>
-      <ipprotocol>inet</ipprotocol>
-      <descr>DNAT 80 to 81 for traefik http-internal</descr>
-      <tag/>
-      <tagged/>
-      <poolopts/>
-      <associated-rule-id>nat_66c60dd622db54.09743019</associated-rule-id>
-      <target>10.1.150.10</target>
-      <local-port>81</local-port>
-      <source>
-        <any>1</any>
-      </source>
-      <destination>
-        <address>10.1.150.10/24</address>
-        <port>80</port>
-      </destination>
-      <updated>
-        <username>xenon@10.1.25.42</username>
-        <time>1724255702.1429</time>
-        <description>/firewall_nat_edit.php made changes</description>
-      </updated>
-      <created>
-        <username>xenon@10.1.25.42</username>
-        <time>1724255702.1429</time>
-        <description>/firewall_nat_edit.php made changes</description>
-      </created>
-    </rule>
   </nat>
   <filter>
     <rule uuid="0edda9b8-24e9-4e6a-a85e-d36824157eee">
@@ -1725,27 +1695,6 @@ AAAEBiwOu7oCoH/E/UswglI83FcRjlSWmkxdq78g/ubWLPOFYzb+as7uAGLaCqvsZrX2jR&#xD;
         <description>/firewall_rules_edit.php made changes</description>
       </created>
     </rule>
-    <rule>
-      <associated-rule-id>nat_66c60dd622db54.09743019</associated-rule-id>
-      <source>
-        <any>1</any>
-      </source>
-      <interface>opt4</interface>
-      <statetype>keep state</statetype>
-      <protocol>tcp</protocol>
-      <ipprotocol>inet</ipprotocol>
-      <destination>
-        <address>10.1.150.10</address>
-        <port>81</port>
-      </destination>
-      <descr>DNAT 80 to 81 for traefik http-internal</descr>
-      <category/>
-      <created>
-        <username>xenon@10.1.25.42</username>
-        <time>1724255702.1429</time>
-        <description>/firewall_nat_edit.php made changes</description>
-      </created>
-    </rule>
   </filter>
   <rrd>
     <enable/>
@@ -1806,8 +1755,8 @@ AAAEBiwOu7oCoH/E/UswglI83FcRjlSWmkxdq78g/ubWLPOFYzb+as7uAGLaCqvsZrX2jR&#xD;
   </widgets>
   <revision>
     <username>xenon@10.1.25.42</username>
-    <time>1724255702.2157</time>
-    <description>/firewall_nat_edit.php made changes</description>
+    <time>1724255733.4808</time>
+    <description>/firewall_nat.php made changes</description>
   </revision>
   <OPNsense>
     <captiveportal version="1.0.2">
