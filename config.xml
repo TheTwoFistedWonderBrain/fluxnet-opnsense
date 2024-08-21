@@ -818,7 +818,7 @@ AAAEBiwOu7oCoH/E/UswglI83FcRjlSWmkxdq78g/ubWLPOFYzb+as7uAGLaCqvsZrX2jR&#xD;
       <interface>opt2</interface>
       <category/>
       <ipprotocol>inet</ipprotocol>
-      <descr>Public TCP/80 to NPM (traefik http-internal)</descr>
+      <descr>Public TCP/80 to NPM (traefik http-external)</descr>
       <tag/>
       <tagged/>
       <poolopts/>
@@ -834,7 +834,7 @@ AAAEBiwOu7oCoH/E/UswglI83FcRjlSWmkxdq78g/ubWLPOFYzb+as7uAGLaCqvsZrX2jR&#xD;
       </destination>
       <updated>
         <username>xenon@10.1.25.42</username>
-        <time>1724255791.01</time>
+        <time>1724255834.7611</time>
         <description>/firewall_nat_edit.php made changes</description>
       </updated>
       <created>
@@ -1068,7 +1068,7 @@ AAAEBiwOu7oCoH/E/UswglI83FcRjlSWmkxdq78g/ubWLPOFYzb+as7uAGLaCqvsZrX2jR&#xD;
         <address>10.1.150.10</address>
         <port>81</port>
       </destination>
-      <descr>Public TCP/80 to NPM (traefik http-internal)</descr>
+      <descr>Public TCP/80 to NPM (traefik http-external)</descr>
       <category/>
       <associated-rule-id>nat_631e41e59ded73.46492549</associated-rule-id>
       <created>
@@ -1755,7 +1755,7 @@ AAAEBiwOu7oCoH/E/UswglI83FcRjlSWmkxdq78g/ubWLPOFYzb+as7uAGLaCqvsZrX2jR&#xD;
   </widgets>
   <revision>
     <username>xenon@10.1.25.42</username>
-    <time>1724255824.4425</time>
+    <time>1724255834.8354</time>
     <description>/firewall_nat_edit.php made changes</description>
   </revision>
   <OPNsense>
