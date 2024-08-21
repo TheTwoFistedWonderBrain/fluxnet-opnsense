@@ -848,13 +848,13 @@ AAAEBiwOu7oCoH/E/UswglI83FcRjlSWmkxdq78g/ubWLPOFYzb+as7uAGLaCqvsZrX2jR&#xD;
       <interface>opt2</interface>
       <category/>
       <ipprotocol>inet</ipprotocol>
-      <descr>Public TCP/443 to NPM</descr>
+      <descr>Public TCP/443 to NPM (traefik https-external)</descr>
       <tag/>
       <tagged/>
       <poolopts/>
       <associated-rule-id>nat_631e4264cdf833.31590539</associated-rule-id>
       <target>10.1.150.10</target>
-      <local-port>443</local-port>
+      <local-port>444</local-port>
       <source>
         <any>1</any>
       </source>
@@ -863,8 +863,8 @@ AAAEBiwOu7oCoH/E/UswglI83FcRjlSWmkxdq78g/ubWLPOFYzb+as7uAGLaCqvsZrX2jR&#xD;
         <port>443</port>
       </destination>
       <updated>
-        <username>xenon@10.1.25.19</username>
-        <time>1713392820.568</time>
+        <username>xenon@10.1.25.42</username>
+        <time>1724255824.3683</time>
         <description>/firewall_nat_edit.php made changes</description>
       </updated>
       <created>
@@ -1087,9 +1087,9 @@ AAAEBiwOu7oCoH/E/UswglI83FcRjlSWmkxdq78g/ubWLPOFYzb+as7uAGLaCqvsZrX2jR&#xD;
       <ipprotocol>inet</ipprotocol>
       <destination>
         <address>10.1.150.10</address>
-        <port>443</port>
+        <port>444</port>
       </destination>
-      <descr>Public TCP/443 to NPM</descr>
+      <descr>Public TCP/443 to NPM (traefik https-external)</descr>
       <category/>
       <associated-rule-id>nat_631e4264cdf833.31590539</associated-rule-id>
       <created>
@@ -1755,8 +1755,8 @@ AAAEBiwOu7oCoH/E/UswglI83FcRjlSWmkxdq78g/ubWLPOFYzb+as7uAGLaCqvsZrX2jR&#xD;
   </widgets>
   <revision>
     <username>xenon@10.1.25.42</username>
-    <time>1724255797.6663</time>
-    <description>/firewall_nat.php made changes</description>
+    <time>1724255824.4425</time>
+    <description>/firewall_nat_edit.php made changes</description>
   </revision>
   <OPNsense>
     <captiveportal version="1.0.2">
