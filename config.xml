@@ -1754,9 +1754,9 @@ AAAEBiwOu7oCoH/E/UswglI83FcRjlSWmkxdq78g/ubWLPOFYzb+as7uAGLaCqvsZrX2jR&#xD;
     <systemlogentriesfilter/>
   </widgets>
   <revision>
-    <username>(system)</username>
-    <description>/usr/local/opnsense/mvc/script/run_migrations.php made changes</description>
-    <time>1724257403.3452</time>
+    <username>xenon@10.1.25.42</username>
+    <description>/api/unbound/settings/toggleHostOverride/502670ff-6f28-4608-83a9-0b485141e1c9 made changes</description>
+    <time>1724342352.9512</time>
   </revision>
   <OPNsense>
     <captiveportal version="1.0.2">
@@ -2642,7 +2642,7 @@ https://www.cloudflare.com/ips-v6</content>
       </dots>
       <hosts>
         <host uuid="502670ff-6f28-4608-83a9-0b485141e1c9">
-          <enabled>1</enabled>
+          <enabled>0</enabled>
           <hostname>portainer</hostname>
           <domain>fluxnet.local</domain>
           <rr>A</rr>
