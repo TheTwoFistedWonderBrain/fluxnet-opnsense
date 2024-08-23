@@ -862,10 +862,9 @@ AAAEBiwOu7oCoH/E/UswglI83FcRjlSWmkxdq78g/ubWLPOFYzb+as7uAGLaCqvsZrX2jR&#xD;
         <network>opt2ip</network>
         <port>443</port>
       </destination>
-      <natreflection>purenat</natreflection>
       <updated>
         <username>xenon@10.1.25.42</username>
-        <time>1724381219.0168</time>
+        <time>1724381287.5946</time>
         <description>/firewall_nat_edit.php made changes</description>
       </updated>
       <created>
@@ -1756,8 +1755,8 @@ AAAEBiwOu7oCoH/E/UswglI83FcRjlSWmkxdq78g/ubWLPOFYzb+as7uAGLaCqvsZrX2jR&#xD;
   </widgets>
   <revision>
     <username>xenon@10.1.25.42</username>
-    <time>1724381221.1764</time>
-    <description>/firewall_nat.php made changes</description>
+    <time>1724381287.6952</time>
+    <description>/firewall_nat_edit.php made changes</description>
   </revision>
   <OPNsense>
     <captiveportal version="1.0.2">
