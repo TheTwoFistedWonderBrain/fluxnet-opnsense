@@ -1755,8 +1755,8 @@ AAAEBiwOu7oCoH/E/UswglI83FcRjlSWmkxdq78g/ubWLPOFYzb+as7uAGLaCqvsZrX2jR&#xD;
   </widgets>
   <revision>
     <username>xenon@10.1.25.42</username>
-    <time>1724381289.4194</time>
-    <description>/firewall_nat.php made changes</description>
+    <description>/api/unbound/settings/toggleHostOverride/f2f6d0ac-5e55-4751-a796-2c5e67cab940 made changes</description>
+    <time>1725475483.8772</time>
   </revision>
   <OPNsense>
     <captiveportal version="1.0.2">
@@ -2652,7 +2652,7 @@ https://www.cloudflare.com/ips-v6</content>
           <description>Portainer</description>
         </host>
         <host uuid="f2f6d0ac-5e55-4751-a796-2c5e67cab940">
-          <enabled>1</enabled>
+          <enabled>0</enabled>
           <hostname>fluxnas-002</hostname>
           <domain>fluxnet.local</domain>
           <rr>A</rr>
