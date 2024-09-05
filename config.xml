@@ -674,6 +674,14 @@ AAAEBiwOu7oCoH/E/UswglI83FcRjlSWmkxdq78g/ubWLPOFYzb+as7uAGLaCqvsZrX2jR&#xD;
         <ntpserver/>
       </staticmap>
       <staticmap>
+        <mac>fe:d1:8e:02:ea:50</mac>
+        <ipaddr>10.1.150.27</ipaddr>
+        <hostname>wazuh</hostname>
+        <winsserver/>
+        <dnsserver/>
+        <ntpserver/>
+      </staticmap>
+      <staticmap>
         <mac>26:5e:28:42:59:f4</mac>
         <ipaddr>10.1.150.250</ipaddr>
         <hostname>fluxnas-002</hostname>
@@ -1755,8 +1763,8 @@ AAAEBiwOu7oCoH/E/UswglI83FcRjlSWmkxdq78g/ubWLPOFYzb+as7uAGLaCqvsZrX2jR&#xD;
   </widgets>
   <revision>
     <username>xenon@10.1.25.42</username>
-    <description>/api/unbound/settings/toggleHostOverride/f2f6d0ac-5e55-4751-a796-2c5e67cab940 made changes</description>
-    <time>1725475483.8772</time>
+    <time>1725566105.9815</time>
+    <description>/services_dhcp_edit.php made changes</description>
   </revision>
   <OPNsense>
     <captiveportal version="1.0.2">
