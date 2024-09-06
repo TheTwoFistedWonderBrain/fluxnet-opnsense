@@ -682,6 +682,14 @@ AAAEBiwOu7oCoH/E/UswglI83FcRjlSWmkxdq78g/ubWLPOFYzb+as7uAGLaCqvsZrX2jR&#xD;
         <ntpserver/>
       </staticmap>
       <staticmap>
+        <mac>6a:66:20:3d:85:a0</mac>
+        <ipaddr>10.1.150.53</ipaddr>
+        <hostname>docker-charlie</hostname>
+        <winsserver/>
+        <dnsserver/>
+        <ntpserver/>
+      </staticmap>
+      <staticmap>
         <mac>26:5e:28:42:59:f4</mac>
         <ipaddr>10.1.150.250</ipaddr>
         <hostname>fluxnas-002</hostname>
@@ -1762,9 +1770,9 @@ AAAEBiwOu7oCoH/E/UswglI83FcRjlSWmkxdq78g/ubWLPOFYzb+as7uAGLaCqvsZrX2jR&#xD;
     <systemlogentriesfilter/>
   </widgets>
   <revision>
-    <username>(system)</username>
-    <description>/usr/local/opnsense/mvc/script/run_migrations.php made changes</description>
-    <time>1725566183.6934</time>
+    <username>xenon@10.1.25.42</username>
+    <time>1725643236.3824</time>
+    <description>/services_dhcp_edit.php made changes</description>
   </revision>
   <OPNsense>
     <captiveportal version="1.0.2">
