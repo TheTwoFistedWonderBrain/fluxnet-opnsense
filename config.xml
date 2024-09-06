@@ -682,6 +682,14 @@ AAAEBiwOu7oCoH/E/UswglI83FcRjlSWmkxdq78g/ubWLPOFYzb+as7uAGLaCqvsZrX2jR&#xD;
         <ntpserver/>
       </staticmap>
       <staticmap>
+        <mac>32:21:b5:2b:80:39</mac>
+        <ipaddr>10.1.150.52</ipaddr>
+        <hostname>docker-bravo</hostname>
+        <winsserver/>
+        <dnsserver/>
+        <ntpserver/>
+      </staticmap>
+      <staticmap>
         <mac>6a:66:20:3d:85:a0</mac>
         <ipaddr>10.1.150.53</ipaddr>
         <hostname>docker-charlie</hostname>
@@ -1771,7 +1779,7 @@ AAAEBiwOu7oCoH/E/UswglI83FcRjlSWmkxdq78g/ubWLPOFYzb+as7uAGLaCqvsZrX2jR&#xD;
   </widgets>
   <revision>
     <username>xenon@10.1.25.42</username>
-    <time>1725643236.3824</time>
+    <time>1725644519.2058</time>
     <description>/services_dhcp_edit.php made changes</description>
   </revision>
   <OPNsense>
