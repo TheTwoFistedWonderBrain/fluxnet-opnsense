@@ -1749,6 +1749,30 @@ AAAEBiwOu7oCoH/E/UswglI83FcRjlSWmkxdq78g/ubWLPOFYzb+as7uAGLaCqvsZrX2jR&#xD;
         <description>/firewall_rules_edit.php made changes</description>
       </created>
     </rule>
+    <rule uuid="05b433af-5f6c-4aaa-ba2f-0d4b989c930e">
+      <type>pass</type>
+      <interface>opt11</interface>
+      <ipprotocol>inet</ipprotocol>
+      <statetype>keep state</statetype>
+      <direction>in</direction>
+      <quick>1</quick>
+      <source>
+        <any>1</any>
+      </source>
+      <destination>
+        <network>(self)</network>
+      </destination>
+      <updated>
+        <username>xenon@10.1.25.42</username>
+        <time>1726160563.8174</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </updated>
+      <created>
+        <username>xenon@10.1.25.42</username>
+        <time>1726160563.8174</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </created>
+    </rule>
   </filter>
   <rrd>
     <enable/>
@@ -1809,8 +1833,8 @@ AAAEBiwOu7oCoH/E/UswglI83FcRjlSWmkxdq78g/ubWLPOFYzb+as7uAGLaCqvsZrX2jR&#xD;
   </widgets>
   <revision>
     <username>xenon@10.1.25.42</username>
-    <time>1726160520.5672</time>
-    <description>/services_dhcp.php made changes</description>
+    <time>1726160563.8912</time>
+    <description>/firewall_rules_edit.php made changes</description>
   </revision>
   <OPNsense>
     <captiveportal version="1.0.2">
