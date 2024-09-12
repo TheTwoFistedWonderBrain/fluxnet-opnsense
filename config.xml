@@ -1786,9 +1786,9 @@ AAAEBiwOu7oCoH/E/UswglI83FcRjlSWmkxdq78g/ubWLPOFYzb+as7uAGLaCqvsZrX2jR&#xD;
     <systemlogentriesfilter/>
   </widgets>
   <revision>
-    <username>xenon@10.1.25.42</username>
-    <time>1725645317.2157</time>
-    <description>/services_dhcp_edit.php made changes</description>
+    <username>(system)</username>
+    <description>/usr/local/opnsense/mvc/script/run_migrations.php made changes</description>
+    <time>1726152086.4159</time>
   </revision>
   <OPNsense>
     <captiveportal version="1.0.2">
@@ -3513,11 +3513,10 @@ key-direction 1</custom_options>
   <wireless>
     <clone/>
   </wireless>
-  <hasync version="1.0.0">
+  <hasync version="1.0.1">
     <disablepreempt>0</disablepreempt>
     <disconnectppps>0</disconnectppps>
-    <pfsyncenabled>0</pfsyncenabled>
-    <pfsyncinterface>lan</pfsyncinterface>
+    <pfsyncinterface/>
     <pfsyncpeerip/>
     <pfsyncversion>1400</pfsyncversion>
     <synchronizetoip/>
