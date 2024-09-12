@@ -481,6 +481,10 @@ AAAEBiwOu7oCoH/E/UswglI83FcRjlSWmkxdq78g/ubWLPOFYzb+as7uAGLaCqvsZrX2jR&#xD;
       <ipaddr>10.1.120.1</ipaddr>
       <subnet>24</subnet>
     </opt10>
+    <opt11>
+      <descr>kubernetes</descr>
+      <if>vlan06</if>
+    </opt11>
   </interfaces>
   <dhcpd>
     <lan>
@@ -1787,8 +1791,8 @@ AAAEBiwOu7oCoH/E/UswglI83FcRjlSWmkxdq78g/ubWLPOFYzb+as7uAGLaCqvsZrX2jR&#xD;
   </widgets>
   <revision>
     <username>xenon@10.1.25.42</username>
-    <description>/api/interfaces/vlan_settings/addItem/ made changes</description>
-    <time>1726160367.611</time>
+    <time>1726160391.8647</time>
+    <description>/interfaces_assign.php made changes</description>
   </revision>
   <OPNsense>
     <captiveportal version="1.0.2">
@@ -3454,8 +3458,12 @@ https://www.cloudflare.com/ips-v6</content>
   <bridges>
     <bridged/>
   </bridges>
-  <gifs version="1.0.0"/>
-  <gres version="1.0.0"/>
+  <gifs version="1.0.0">
+    <gif/>
+  </gifs>
+  <gres version="1.0.0">
+    <gre/>
+  </gres>
   <ifgroups version="1.0.0">
     <ifgroupentry uuid="b7eff7be-aab4-4953-b48d-0d1a6ac98fe4">
       <ifname>non_iot</ifname>
