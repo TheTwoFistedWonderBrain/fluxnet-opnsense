@@ -1786,9 +1786,9 @@ AAAEBiwOu7oCoH/E/UswglI83FcRjlSWmkxdq78g/ubWLPOFYzb+as7uAGLaCqvsZrX2jR&#xD;
     <systemlogentriesfilter/>
   </widgets>
   <revision>
-    <username>(system)</username>
-    <description>/usr/local/opnsense/scripts/firmware/register.php made changes</description>
-    <time>1726152086.5575</time>
+    <username>xenon@10.1.25.42</username>
+    <description>/api/interfaces/vlan_settings/addItem/ made changes</description>
+    <time>1726160367.611</time>
   </revision>
   <OPNsense>
     <captiveportal version="1.0.2">
@@ -3441,6 +3441,14 @@ https://www.cloudflare.com/ips-v6</content>
       <proto/>
       <descr>Voice</descr>
       <vlanif>vlan05</vlanif>
+    </vlan>
+    <vlan uuid="e7b03de9-3e08-41a2-8cd3-630e11022a62">
+      <if>igb0</if>
+      <tag>200</tag>
+      <pcp>0</pcp>
+      <proto/>
+      <descr>kubernetes</descr>
+      <vlanif>vlan06</vlanif>
     </vlan>
   </vlans>
   <bridges>
