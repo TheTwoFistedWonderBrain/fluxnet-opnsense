@@ -483,7 +483,7 @@ AAAEBiwOu7oCoH/E/UswglI83FcRjlSWmkxdq78g/ubWLPOFYzb+as7uAGLaCqvsZrX2jR&#xD;
     </opt10>
     <opt11>
       <if>vlan06</if>
-      <descr>kubernetes</descr>
+      <descr>kubernetes_vlan200</descr>
       <enable>1</enable>
       <spoofmac/>
       <ipaddr>10.1.200.1</ipaddr>
@@ -1795,7 +1795,7 @@ AAAEBiwOu7oCoH/E/UswglI83FcRjlSWmkxdq78g/ubWLPOFYzb+as7uAGLaCqvsZrX2jR&#xD;
   </widgets>
   <revision>
     <username>xenon@10.1.25.42</username>
-    <time>1726160426.1202</time>
+    <time>1726160465.765</time>
     <description>/interfaces.php made changes</description>
   </revision>
   <OPNsense>
