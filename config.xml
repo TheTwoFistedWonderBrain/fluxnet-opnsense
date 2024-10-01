@@ -1857,8 +1857,8 @@ AAAEBiwOu7oCoH/E/UswglI83FcRjlSWmkxdq78g/ubWLPOFYzb+as7uAGLaCqvsZrX2jR&#xD;
   </widgets>
   <revision>
     <username>xenon@10.1.25.42</username>
-    <time>1726160568.4453</time>
-    <description>/firewall_rules_edit.php made changes</description>
+    <description>/api/ntopng/general/set made changes</description>
+    <time>1727810574.2345</time>
   </revision>
   <OPNsense>
     <captiveportal version="1.0.2">
@@ -2834,7 +2834,7 @@ https://www.cloudflare.com/ips-v6</content>
     </unboundplus>
     <ntopng>
       <general version="0.0.2">
-        <enabled>0</enabled>
+        <enabled>1</enabled>
         <interface/>
         <httpport>3030</httpport>
         <httpsport>3443</httpsport>
