@@ -1857,7 +1857,7 @@ AAAEBiwOu7oCoH/E/UswglI83FcRjlSWmkxdq78g/ubWLPOFYzb+as7uAGLaCqvsZrX2jR&#xD;
   <revision>
     <username>xenon@10.1.25.42</username>
     <description>/api/ntopng/general/set made changes</description>
-    <time>1727812401.5341</time>
+    <time>1727812456.3419</time>
   </revision>
   <OPNsense>
     <captiveportal version="1.0.2">
@@ -2833,7 +2833,7 @@ https://www.cloudflare.com/ips-v6</content>
     </unboundplus>
     <ntopng>
       <general version="0.0.2">
-        <enabled>1</enabled>
+        <enabled>0</enabled>
         <interface>lan</interface>
         <httpport>3030</httpport>
         <httpsport>3443</httpsport>
