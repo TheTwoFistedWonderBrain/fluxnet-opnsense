@@ -476,7 +476,6 @@ AAAEBiwOu7oCoH/E/UswglI83FcRjlSWmkxdq78g/ubWLPOFYzb+as7uAGLaCqvsZrX2jR&#xD;
     <opt10>
       <if>vlan05</if>
       <descr>voice_vlan120</descr>
-      <enable>1</enable>
       <spoofmac/>
       <ipaddr>10.1.120.1</ipaddr>
       <subnet>24</subnet>
@@ -1857,8 +1856,8 @@ AAAEBiwOu7oCoH/E/UswglI83FcRjlSWmkxdq78g/ubWLPOFYzb+as7uAGLaCqvsZrX2jR&#xD;
   </widgets>
   <revision>
     <username>xenon@10.1.25.42</username>
-    <description>/api/ntopng/general/set made changes</description>
-    <time>1727810574.2345</time>
+    <time>1727811616.4488</time>
+    <description>Interface voice_vlan120(opt10) is now disabled.</description>
   </revision>
   <OPNsense>
     <captiveportal version="1.0.2">
