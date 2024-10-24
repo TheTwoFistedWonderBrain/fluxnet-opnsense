@@ -1855,9 +1855,9 @@ AAAEBiwOu7oCoH/E/UswglI83FcRjlSWmkxdq78g/ubWLPOFYzb+as7uAGLaCqvsZrX2jR&#xD;
     <systemlogentriesfilter/>
   </widgets>
   <revision>
-    <username>xenon@10.1.25.42</username>
-    <description>/api/ntopng/general/set made changes</description>
-    <time>1727812456.3419</time>
+    <username>(system)</username>
+    <description>/usr/local/opnsense/mvc/script/run_migrations.php made changes</description>
+    <time>1729803170.1888</time>
   </revision>
   <OPNsense>
     <captiveportal version="1.0.2">
@@ -2002,7 +2002,7 @@ https://www.cloudflare.com/ips-v6</content>
         <onetoone/>
       </Filter>
     </Firewall>
-    <IDS version="1.0.9">
+    <IDS version="1.1.0">
       <rules/>
       <policies/>
       <userDefinedRules/>
@@ -2282,6 +2282,19 @@ https://www.cloudflare.com/ips-v6</content>
         <syslog_eve>0</syslog_eve>
         <LogPayload>0</LogPayload>
         <verbosity/>
+        <eveLog>
+          <http>
+            <enable>0</enable>
+            <extended>0</extended>
+            <dumpAllHeaders/>
+          </http>
+          <tls>
+            <enable>0</enable>
+            <extended>0</extended>
+            <sessionResumption>0</sessionResumption>
+            <custom/>
+          </tls>
+        </eveLog>
       </general>
     </IDS>
     <IPsec version="1.0.3">
@@ -3392,7 +3405,7 @@ https://www.cloudflare.com/ips-v6</content>
           <http_port>8000</http_port>
         </general>
       </ctrl_agent>
-      <dhcp4 version="1.0.0">
+      <dhcp4 version="1.0.1">
         <general>
           <enabled>0</enabled>
           <interfaces/>
@@ -3402,6 +3415,7 @@ https://www.cloudflare.com/ips-v6</content>
         <ha>
           <enabled>0</enabled>
           <this_server_name/>
+          <max_unacked_clients>2</max_unacked_clients>
         </ha>
         <subnets/>
         <reservations/>
@@ -3409,6 +3423,20 @@ https://www.cloudflare.com/ips-v6</content>
       </dhcp4>
     </Kea>
     <DHCRelay version="1.0.1"/>
+    <trust>
+      <general version="1.0.1">
+        <store_intermediate_certs>0</store_intermediate_certs>
+        <install_crls>0</install_crls>
+        <fetch_crls>0</fetch_crls>
+        <enable_legacy_sect>1</enable_legacy_sect>
+        <enable_config_constraints>0</enable_config_constraints>
+        <CipherString/>
+        <Ciphersuites/>
+        <groups/>
+        <MinProtocol/>
+        <MinProtocol_DTLS/>
+      </general>
+    </trust>
   </OPNsense>
   <staticroutes version="1.0.0">
     <route/>
