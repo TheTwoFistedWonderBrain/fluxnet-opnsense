@@ -1855,9 +1855,9 @@ AAAEBiwOu7oCoH/E/UswglI83FcRjlSWmkxdq78g/ubWLPOFYzb+as7uAGLaCqvsZrX2jR&#xD;
     <systemlogentriesfilter/>
   </widgets>
   <revision>
-    <username>(system)</username>
-    <description>/usr/local/opnsense/mvc/script/run_migrations.php made changes</description>
-    <time>1729803170.1888</time>
+    <username>xenon@10.1.25.42</username>
+    <time>1731344684.4721</time>
+    <description>/vpn_openvpn_client.php made changes</description>
   </revision>
   <OPNsense>
     <captiveportal version="1.0.2">
@@ -3614,6 +3614,7 @@ key-direction 1</custom_options>
       <caref>63b8b7b10a5a9</caref>
       <certref/>
       <tls>LS0tLS1CRUdJTiBPcGVuVlBOIFN0YXRpYyBrZXkgVjEtLS0tLQ0KZGE2YTk3YmFkMGU4MzA0Y2VjYTNlMjc4NzkwMzFiNjQNCjQ0YjFmOTFhMWRhMGIyNGYxMGYzOTQzYTc4NjRiNzk1DQo4NWNlMzI0ODIwOWE1ZmE4NzBhM2U2NWYwOGM3NGMzYg0KNzkyMTkxMTJiYzBiYThiNTZhMTc4NDNmNDRkMmU1MjYNCmQzYjBkNGVmNGYzOTQ0MzEwYjk2NzNmYmU4NWEwMTNkDQo1ZjI1NTk5MWY1YzJiNjZlZWMwYTgyMjlmZjQ0YWNiMQ0KZmI3NWEzNjBlZTlmMGY2M2ZlODY5OTIzZTIzZWQzN2MNCmUwZDY0OGJmYjM3ODlkNTJhZWI3NGVjYWM2ZTkwYzJhDQo0YTg4MmQzMDhlNzNhMzdkYmZlMDg4NGEwNjhiYWM5Zg0KZmUzYjBjYjRmYzViOTE2OGUyZWMxZGExMjE2YzVlOGQNCjc4NDNlYzM3ZGY2ODY2ZTM1ZTUyMjRmZjE1NGM3NDc0DQo4ZjQxZTQ5ZDRkMjM4NjAwNmVmZWRmMTIzODI1MDk1Yg0KZTczY2U1ZjhhMmVhYjNiYzM1M2U5ZTgyNGE1OTYyYjMNCmJlYzdlMjdmZGI5NGQ2Y2IyZjVkZjA3YjllN2UwYjFjDQpkZjA2M2Q5OWUwM2U5ODJjY2U4YzhhYzFiY2I3OGJhNQ0KNGJlNzI5NmIwNTBjZTg5Njc1ZTZiYjJkZTY0OTFkOTUNCi0tLS0tRU5EIE9wZW5WUE4gU3RhdGljIGtleSBWMS0tLS0t</tls>
+      <disable>1</disable>
     </openvpn-client>
   </openvpn>
   <laggs version="1.0.0">
