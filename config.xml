@@ -479,6 +479,15 @@ AAAEBiwOu7oCoH/E/UswglI83FcRjlSWmkxdq78g/ubWLPOFYzb+as7uAGLaCqvsZrX2jR&#xD;
       <ipaddr>10.1.200.1</ipaddr>
       <subnet>24</subnet>
     </opt11>
+    <openvpn>
+      <internal_dynamic>1</internal_dynamic>
+      <enable>1</enable>
+      <if>openvpn</if>
+      <descr>OpenVPN</descr>
+      <type>group</type>
+      <virtual>1</virtual>
+      <networks/>
+    </openvpn>
   </interfaces>
   <dhcpd>
     <lan>
@@ -1002,6 +1011,30 @@ AAAEBiwOu7oCoH/E/UswglI83FcRjlSWmkxdq78g/ubWLPOFYzb+as7uAGLaCqvsZrX2jR&#xD;
       <destination>
         <any/>
       </destination>
+    </rule>
+    <rule uuid="79e27649-c6a1-4bb2-a210-99a89e2adfc4">
+      <type>pass</type>
+      <interface>lan</interface>
+      <ipprotocol>inet</ipprotocol>
+      <statetype>keep state</statetype>
+      <direction>in</direction>
+      <quick>1</quick>
+      <source>
+        <any>1</any>
+      </source>
+      <destination>
+        <network>(self)</network>
+      </destination>
+      <updated>
+        <username>xenon@10.1.25.42</username>
+        <time>1731454581.6743</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </updated>
+      <created>
+        <username>xenon@10.1.25.42</username>
+        <time>1731454581.6743</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </created>
     </rule>
     <rule uuid="8dd1db25-925d-47aa-aa2b-28d4122f1c21">
       <type>pass</type>
@@ -1847,8 +1880,8 @@ AAAEBiwOu7oCoH/E/UswglI83FcRjlSWmkxdq78g/ubWLPOFYzb+as7uAGLaCqvsZrX2jR&#xD;
   </widgets>
   <revision>
     <username>xenon@10.1.25.42</username>
-    <time>1731344687.7795</time>
-    <description>/vpn_openvpn_client.php made changes</description>
+    <time>1731454581.7471</time>
+    <description>/firewall_rules_edit.php made changes</description>
   </revision>
   <OPNsense>
     <captiveportal version="1.0.2">
