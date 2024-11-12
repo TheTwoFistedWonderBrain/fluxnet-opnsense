@@ -988,30 +988,6 @@ AAAEBiwOu7oCoH/E/UswglI83FcRjlSWmkxdq78g/ubWLPOFYzb+as7uAGLaCqvsZrX2jR&#xD;
     </rule>
   </nat>
   <filter>
-    <rule uuid="0edda9b8-24e9-4e6a-a85e-d36824157eee">
-      <type>pass</type>
-      <ipprotocol>inet</ipprotocol>
-      <descr>Default allow LAN to any rule</descr>
-      <interface>lan</interface>
-      <source>
-        <network>lan</network>
-      </source>
-      <destination>
-        <any/>
-      </destination>
-    </rule>
-    <rule uuid="827a8ff4-57e8-4dc0-ba74-39f51667c6a8">
-      <type>pass</type>
-      <ipprotocol>inet6</ipprotocol>
-      <descr>Default allow LAN IPv6 to any rule</descr>
-      <interface>lan</interface>
-      <source>
-        <network>lan</network>
-      </source>
-      <destination>
-        <any/>
-      </destination>
-    </rule>
     <rule uuid="79e27649-c6a1-4bb2-a210-99a89e2adfc4">
       <type>pass</type>
       <interface>lan</interface>
@@ -1035,6 +1011,30 @@ AAAEBiwOu7oCoH/E/UswglI83FcRjlSWmkxdq78g/ubWLPOFYzb+as7uAGLaCqvsZrX2jR&#xD;
         <time>1731454581.6743</time>
         <description>/firewall_rules_edit.php made changes</description>
       </created>
+    </rule>
+    <rule uuid="0edda9b8-24e9-4e6a-a85e-d36824157eee">
+      <type>pass</type>
+      <ipprotocol>inet</ipprotocol>
+      <descr>Default allow LAN to any rule</descr>
+      <interface>lan</interface>
+      <source>
+        <network>lan</network>
+      </source>
+      <destination>
+        <any/>
+      </destination>
+    </rule>
+    <rule uuid="827a8ff4-57e8-4dc0-ba74-39f51667c6a8">
+      <type>pass</type>
+      <ipprotocol>inet6</ipprotocol>
+      <descr>Default allow LAN IPv6 to any rule</descr>
+      <interface>lan</interface>
+      <source>
+        <network>lan</network>
+      </source>
+      <destination>
+        <any/>
+      </destination>
     </rule>
     <rule uuid="8dd1db25-925d-47aa-aa2b-28d4122f1c21">
       <type>pass</type>
@@ -1880,8 +1880,8 @@ AAAEBiwOu7oCoH/E/UswglI83FcRjlSWmkxdq78g/ubWLPOFYzb+as7uAGLaCqvsZrX2jR&#xD;
   </widgets>
   <revision>
     <username>xenon@10.1.25.42</username>
-    <time>1731454581.7471</time>
-    <description>/firewall_rules_edit.php made changes</description>
+    <time>1731454592.1099</time>
+    <description>/firewall_rules.php made changes</description>
   </revision>
   <OPNsense>
     <captiveportal version="1.0.2">
