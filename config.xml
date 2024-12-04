@@ -479,6 +479,15 @@ AAAEBiwOu7oCoH/E/UswglI83FcRjlSWmkxdq78g/ubWLPOFYzb+as7uAGLaCqvsZrX2jR&#xD;
       <ipaddr>10.1.200.1</ipaddr>
       <subnet>24</subnet>
     </opt11>
+    <openvpn>
+      <internal_dynamic>1</internal_dynamic>
+      <enable>1</enable>
+      <if>openvpn</if>
+      <descr>OpenVPN</descr>
+      <type>group</type>
+      <virtual>1</virtual>
+      <networks/>
+    </openvpn>
   </interfaces>
   <dhcpd>
     <lan>
@@ -1870,9 +1879,9 @@ AAAEBiwOu7oCoH/E/UswglI83FcRjlSWmkxdq78g/ubWLPOFYzb+as7uAGLaCqvsZrX2jR&#xD;
     <systemlogentriesfilter/>
   </widgets>
   <revision>
-    <username>(system)</username>
-    <description>/usr/local/opnsense/mvc/script/run_migrations.php made changes</description>
-    <time>1733285874.2946</time>
+    <username>(root)</username>
+    <time>1733285875.8642</time>
+    <description>Updated plugin interface configuration</description>
   </revision>
   <OPNsense>
     <captiveportal version="1.0.2">
