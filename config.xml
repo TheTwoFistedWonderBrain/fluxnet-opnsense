@@ -1870,9 +1870,9 @@ AAAEBiwOu7oCoH/E/UswglI83FcRjlSWmkxdq78g/ubWLPOFYzb+as7uAGLaCqvsZrX2jR&#xD;
     <systemlogentriesfilter/>
   </widgets>
   <revision>
-    <username>xenon@10.1.25.42</username>
-    <time>1732654055.681</time>
-    <description>/vpn_openvpn_client.php made changes</description>
+    <username>(system)</username>
+    <description>/usr/local/opnsense/mvc/script/run_migrations.php made changes</description>
+    <time>1733285874.2946</time>
   </revision>
   <OPNsense>
     <captiveportal version="1.0.2">
@@ -2682,7 +2682,7 @@ https://www.cloudflare.com/ips-v6</content>
       <queues/>
       <rules/>
     </TrafficShaper>
-    <unboundplus version="1.0.9">
+    <unboundplus version="1.0.11">
       <general>
         <enabled>1</enabled>
         <port>53</port>
@@ -2734,6 +2734,7 @@ https://www.cloudflare.com/ips-v6</content>
         <numqueriesperthread/>
         <outgoingrange/>
         <jostletimeout/>
+        <discardtimeout/>
         <cachemaxttl/>
         <cachemaxnegativettl/>
         <cacheminttl/>
@@ -2767,6 +2768,28 @@ https://www.cloudflare.com/ips-v6</content>
           <server>10.1.100.1</server>
           <port>5353</port>
           <verify/>
+          <forward_tcp_upstream>0</forward_tcp_upstream>
+          <description/>
+        </dot>
+        <dot uuid="14217df1-cc02-4524-a443-81a5db57cdcc">
+          <enabled>1</enabled>
+          <type>forward</type>
+          <domain>plex.direct</domain>
+          <server>1.1.1.1</server>
+          <port/>
+          <verify/>
+          <forward_tcp_upstream>0</forward_tcp_upstream>
+          <description/>
+        </dot>
+        <dot uuid="5692314f-b554-4745-9a9c-928d2a595776">
+          <enabled>1</enabled>
+          <type>forward</type>
+          <domain>mail.cookiecollective.net</domain>
+          <server>143.42.130.53</server>
+          <port/>
+          <verify/>
+          <forward_tcp_upstream>0</forward_tcp_upstream>
+          <description/>
         </dot>
       </dots>
       <hosts>
@@ -2842,22 +2865,6 @@ https://www.cloudflare.com/ips-v6</content>
         </host>
       </hosts>
       <aliases/>
-      <domains>
-        <domain uuid="e4a78dc7-a139-4296-a80d-1a0184cae77c">
-          <enabled>1</enabled>
-          <domain>plex.direct</domain>
-          <server>1.1.1.1</server>
-          <forward_tcp_upstream>0</forward_tcp_upstream>
-          <description>plex dns rebinding override</description>
-        </domain>
-        <domain uuid="18e2cd88-9902-4bda-892e-cfd59003bced">
-          <enabled>1</enabled>
-          <domain>mail.cookiecollective.net</domain>
-          <server>143.42.130.53</server>
-          <forward_tcp_upstream>0</forward_tcp_upstream>
-          <description/>
-        </domain>
-      </domains>
     </unboundplus>
     <ntopng>
       <general version="0.0.2">
@@ -3381,7 +3388,7 @@ https://www.cloudflare.com/ips-v6</content>
         <webcategoriesType/>
       </rules>
     </Zenarmor>
-    <OpenVPN version="1.0.0">
+    <OpenVPN version="1.0.1">
       <Overwrites/>
       <Instances/>
       <StaticKeys/>
@@ -3420,12 +3427,13 @@ https://www.cloudflare.com/ips-v6</content>
           <http_port>8000</http_port>
         </general>
       </ctrl_agent>
-      <dhcp4 version="1.0.1">
+      <dhcp4 version="1.0.2">
         <general>
           <enabled>0</enabled>
           <interfaces/>
           <valid_lifetime>4000</valid_lifetime>
           <fwrules>1</fwrules>
+          <dhcp_socket_type>raw</dhcp_socket_type>
         </general>
         <ha>
           <enabled>0</enabled>
