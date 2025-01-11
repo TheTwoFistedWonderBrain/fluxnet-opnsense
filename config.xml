@@ -721,6 +721,14 @@ AAAEBiwOu7oCoH/E/UswglI83FcRjlSWmkxdq78g/ubWLPOFYzb+as7uAGLaCqvsZrX2jR&#xD;
         <ntpserver/>
       </staticmap>
       <staticmap>
+        <mac>fa:e2:c2:cc:3a:a3</mac>
+        <ipaddr>10.1.150.102</ipaddr>
+        <hostname>kube-02</hostname>
+        <winsserver/>
+        <dnsserver/>
+        <ntpserver/>
+      </staticmap>
+      <staticmap>
         <mac>26:5e:28:42:59:f4</mac>
         <ipaddr>10.1.150.250</ipaddr>
         <hostname>fluxnas-002</hostname>
@@ -1888,7 +1896,7 @@ AAAEBiwOu7oCoH/E/UswglI83FcRjlSWmkxdq78g/ubWLPOFYzb+as7uAGLaCqvsZrX2jR&#xD;
   </widgets>
   <revision>
     <username>xenon@10.1.25.42</username>
-    <time>1736614808.9595</time>
+    <time>1736614909.8696</time>
     <description>/services_dhcp_edit.php made changes</description>
   </revision>
   <OPNsense>
