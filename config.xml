@@ -673,14 +673,6 @@ AAAEBiwOu7oCoH/E/UswglI83FcRjlSWmkxdq78g/ubWLPOFYzb+as7uAGLaCqvsZrX2jR&#xD;
         <ntpserver/>
       </staticmap>
       <staticmap>
-        <mac>fa:e2:c2:cc:3a:a3</mac>
-        <ipaddr>10.1.150.12</ipaddr>
-        <hostname>kube-12</hostname>
-        <winsserver/>
-        <dnsserver/>
-        <ntpserver/>
-      </staticmap>
-      <staticmap>
         <mac>86:f0:30:3b:e2:79</mac>
         <ipaddr>10.1.150.21</ipaddr>
         <hostname>kube-21</hostname>
@@ -740,6 +732,14 @@ AAAEBiwOu7oCoH/E/UswglI83FcRjlSWmkxdq78g/ubWLPOFYzb+as7uAGLaCqvsZrX2jR&#xD;
         <mac>fa:1c:cb:6b:5b:db</mac>
         <ipaddr>10.1.150.111</ipaddr>
         <hostname>kube-111</hostname>
+        <winsserver/>
+        <dnsserver/>
+        <ntpserver/>
+      </staticmap>
+      <staticmap>
+        <mac>fa:e2:c2:cc:3a:a3</mac>
+        <ipaddr>10.1.150.121</ipaddr>
+        <hostname>kube-121</hostname>
         <winsserver/>
         <dnsserver/>
         <ntpserver/>
@@ -1912,7 +1912,7 @@ AAAEBiwOu7oCoH/E/UswglI83FcRjlSWmkxdq78g/ubWLPOFYzb+as7uAGLaCqvsZrX2jR&#xD;
   </widgets>
   <revision>
     <username>xenon@10.1.25.42</username>
-    <time>1736620380.7452</time>
+    <time>1736620399.8375</time>
     <description>/services_dhcp_edit.php made changes</description>
   </revision>
   <OPNsense>
