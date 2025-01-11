@@ -738,8 +738,8 @@ AAAEBiwOu7oCoH/E/UswglI83FcRjlSWmkxdq78g/ubWLPOFYzb+as7uAGLaCqvsZrX2jR&#xD;
       </staticmap>
       <staticmap>
         <mac>86:f0:30:3b:e2:79</mac>
-        <ipaddr>10.1.150.212</ipaddr>
-        <hostname>kube-212</hostname>
+        <ipaddr>10.1.150.211</ipaddr>
+        <hostname>kube-211</hostname>
         <winsserver/>
         <dnsserver/>
         <ntpserver/>
@@ -1928,7 +1928,7 @@ AAAEBiwOu7oCoH/E/UswglI83FcRjlSWmkxdq78g/ubWLPOFYzb+as7uAGLaCqvsZrX2jR&#xD;
   </widgets>
   <revision>
     <username>xenon@10.1.25.42</username>
-    <time>1736623163.3686</time>
+    <time>1736625679.1011</time>
     <description>/services_dhcp_edit.php made changes</description>
   </revision>
   <OPNsense>
