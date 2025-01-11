@@ -697,6 +697,14 @@ AAAEBiwOu7oCoH/E/UswglI83FcRjlSWmkxdq78g/ubWLPOFYzb+as7uAGLaCqvsZrX2jR&#xD;
         <ntpserver/>
       </staticmap>
       <staticmap>
+        <mac>1a:ed:00:0d:ca:7b</mac>
+        <ipaddr>10.1.150.22</ipaddr>
+        <hostname>kube-22</hostname>
+        <winsserver/>
+        <dnsserver/>
+        <ntpserver/>
+      </staticmap>
+      <staticmap>
         <mac>96:d8:ac:6b:e9:8e</mac>
         <ipaddr>10.1.150.25</ipaddr>
         <hostname>build</hostname>
@@ -732,14 +740,6 @@ AAAEBiwOu7oCoH/E/UswglI83FcRjlSWmkxdq78g/ubWLPOFYzb+as7uAGLaCqvsZrX2jR&#xD;
         <mac>6a:66:20:3d:85:a0</mac>
         <ipaddr>10.1.150.53</ipaddr>
         <hostname>docker-charlie</hostname>
-        <winsserver/>
-        <dnsserver/>
-        <ntpserver/>
-      </staticmap>
-      <staticmap>
-        <mac>1a:ed:00:0d:ca:7b</mac>
-        <ipaddr>10.1.150.104</ipaddr>
-        <hostname>kube-04</hostname>
         <winsserver/>
         <dnsserver/>
         <ntpserver/>
@@ -1912,7 +1912,7 @@ AAAEBiwOu7oCoH/E/UswglI83FcRjlSWmkxdq78g/ubWLPOFYzb+as7uAGLaCqvsZrX2jR&#xD;
   </widgets>
   <revision>
     <username>xenon@10.1.25.42</username>
-    <time>1736617084.1012</time>
+    <time>1736617096.0146</time>
     <description>/services_dhcp_edit.php made changes</description>
   </revision>
   <OPNsense>
