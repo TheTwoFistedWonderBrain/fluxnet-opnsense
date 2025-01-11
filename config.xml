@@ -1879,9 +1879,9 @@ AAAEBiwOu7oCoH/E/UswglI83FcRjlSWmkxdq78g/ubWLPOFYzb+as7uAGLaCqvsZrX2jR&#xD;
     <systemlogentriesfilter/>
   </widgets>
   <revision>
-    <username>(root)</username>
-    <time>1733285875.8642</time>
-    <description>Updated plugin interface configuration</description>
+    <username>xenon@10.1.25.42</username>
+    <description>/api/firewall/group/setItem/b7eff7be-aab4-4953-b48d-0d1a6ac98fe4 made changes</description>
+    <time>1736614274.6106</time>
   </revision>
   <OPNsense>
     <captiveportal version="1.0.2">
@@ -3592,7 +3592,7 @@ https://www.cloudflare.com/ips-v6</content>
   <ifgroups version="1.0.0">
     <ifgroupentry uuid="b7eff7be-aab4-4953-b48d-0d1a6ac98fe4">
       <ifname>non_iot</ifname>
-      <members>opt4,opt5,opt7</members>
+      <members>opt4,opt5,opt7,opt11</members>
       <nogroup>0</nogroup>
       <sequence>0</sequence>
       <descr>Non-IoT</descr>
