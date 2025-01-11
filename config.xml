@@ -713,6 +713,14 @@ AAAEBiwOu7oCoH/E/UswglI83FcRjlSWmkxdq78g/ubWLPOFYzb+as7uAGLaCqvsZrX2jR&#xD;
         <ntpserver/>
       </staticmap>
       <staticmap>
+        <mac>fa:1c:cb:6b:5b:db</mac>
+        <ipaddr>10.1.150.101</ipaddr>
+        <hostname>kube-01</hostname>
+        <winsserver/>
+        <dnsserver/>
+        <ntpserver/>
+      </staticmap>
+      <staticmap>
         <mac>26:5e:28:42:59:f4</mac>
         <ipaddr>10.1.150.250</ipaddr>
         <hostname>fluxnas-002</hostname>
@@ -1880,8 +1888,8 @@ AAAEBiwOu7oCoH/E/UswglI83FcRjlSWmkxdq78g/ubWLPOFYzb+as7uAGLaCqvsZrX2jR&#xD;
   </widgets>
   <revision>
     <username>xenon@10.1.25.42</username>
-    <description>/api/firewall/group/setItem/b7eff7be-aab4-4953-b48d-0d1a6ac98fe4 made changes</description>
-    <time>1736614274.6106</time>
+    <time>1736614808.9595</time>
+    <description>/services_dhcp_edit.php made changes</description>
   </revision>
   <OPNsense>
     <captiveportal version="1.0.2">
