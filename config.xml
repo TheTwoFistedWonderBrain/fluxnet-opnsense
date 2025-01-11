@@ -658,7 +658,7 @@ AAAEBiwOu7oCoH/E/UswglI83FcRjlSWmkxdq78g/ubWLPOFYzb+as7uAGLaCqvsZrX2jR&#xD;
         <item/>
       </numberoptions>
       <range>
-        <from>10.1.150.25</from>
+        <from>10.1.150.100</from>
         <to>10.1.150.200</to>
       </range>
       <winsserver/>
@@ -1912,8 +1912,8 @@ AAAEBiwOu7oCoH/E/UswglI83FcRjlSWmkxdq78g/ubWLPOFYzb+as7uAGLaCqvsZrX2jR&#xD;
   </widgets>
   <revision>
     <username>xenon@10.1.25.42</username>
-    <time>1736614956.5579</time>
-    <description>/services_dhcp_edit.php made changes</description>
+    <time>1736616976.3164</time>
+    <description>/services_dhcp.php made changes</description>
   </revision>
   <OPNsense>
     <captiveportal version="1.0.2">
