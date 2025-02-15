@@ -1950,9 +1950,9 @@ AAAEBiwOu7oCoH/E/UswglI83FcRjlSWmkxdq78g/ubWLPOFYzb+as7uAGLaCqvsZrX2jR&#xD;
     <systemlogentriesfilter/>
   </widgets>
   <revision>
-    <username>xenon@10.1.25.42</username>
-    <time>1738627592.7867</time>
-    <description>/services_dhcp_edit.php made changes</description>
+    <username>(system)</username>
+    <description>/usr/local/opnsense/mvc/script/run_migrations.php made changes</description>
+    <time>1739559889.3233</time>
   </revision>
   <OPNsense>
     <captiveportal version="1.0.2">
@@ -3041,7 +3041,7 @@ https://www.cloudflare.com/ips-v6</content>
       </general>
     </clamav>
     <crowdsec>
-      <general version="1.0.8">
+      <general version="1.0.9">
         <agent_enabled>1</agent_enabled>
         <lapi_enabled>1</lapi_enabled>
         <firewall_bouncer_enabled>1</firewall_bouncer_enabled>
