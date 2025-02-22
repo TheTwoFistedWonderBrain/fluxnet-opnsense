@@ -657,6 +657,14 @@ AAAEBiwOu7oCoH/E/UswglI83FcRjlSWmkxdq78g/ubWLPOFYzb+as7uAGLaCqvsZrX2jR&#xD;
         <ntpserver/>
       </staticmap>
       <staticmap>
+        <mac>28:70:4e:c5:d5:42</mac>
+        <ipaddr>10.1.100.29</ipaddr>
+        <hostname>fluxnet-sw-san-01</hostname>
+        <winsserver/>
+        <dnsserver/>
+        <ntpserver/>
+      </staticmap>
+      <staticmap>
         <mac>42:fa:5e:55:86:42</mac>
         <ipaddr>10.1.100.253</ipaddr>
         <hostname>fluxserv-001</hostname>
@@ -1950,9 +1958,9 @@ AAAEBiwOu7oCoH/E/UswglI83FcRjlSWmkxdq78g/ubWLPOFYzb+as7uAGLaCqvsZrX2jR&#xD;
     <systemlogentriesfilter/>
   </widgets>
   <revision>
-    <username>(system)</username>
-    <description>/usr/local/opnsense/mvc/script/run_migrations.php made changes</description>
-    <time>1739559889.3233</time>
+    <username>xenon@10.1.25.42</username>
+    <time>1740244440.9328</time>
+    <description>/services_dhcp_edit.php made changes</description>
   </revision>
   <OPNsense>
     <captiveportal version="1.0.2">
