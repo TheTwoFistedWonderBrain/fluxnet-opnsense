@@ -1958,9 +1958,9 @@ AAAEBiwOu7oCoH/E/UswglI83FcRjlSWmkxdq78g/ubWLPOFYzb+as7uAGLaCqvsZrX2jR&#xD;
     <systemlogentriesfilter/>
   </widgets>
   <revision>
-    <username>xenon@10.1.25.42</username>
-    <time>1740244440.9328</time>
-    <description>/services_dhcp_edit.php made changes</description>
+    <username>(system)</username>
+    <description>/usr/local/opnsense/mvc/script/run_migrations.php made changes</description>
+    <time>1741275485.277</time>
   </revision>
   <OPNsense>
     <captiveportal version="1.0.2">
@@ -2770,7 +2770,7 @@ https://www.cloudflare.com/ips-v6</content>
       <queues/>
       <rules/>
     </TrafficShaper>
-    <unboundplus version="1.0.11">
+    <unboundplus version="1.0.12">
       <general>
         <enabled>1</enabled>
         <port>53</port>
@@ -2857,6 +2857,7 @@ https://www.cloudflare.com/ips-v6</content>
           <port>5353</port>
           <verify/>
           <forward_tcp_upstream>0</forward_tcp_upstream>
+          <forward_first>0</forward_first>
           <description/>
         </dot>
         <dot uuid="14217df1-cc02-4524-a443-81a5db57cdcc">
@@ -2867,6 +2868,7 @@ https://www.cloudflare.com/ips-v6</content>
           <port/>
           <verify/>
           <forward_tcp_upstream>0</forward_tcp_upstream>
+          <forward_first>0</forward_first>
           <description/>
         </dot>
         <dot uuid="5692314f-b554-4745-9a9c-928d2a595776">
@@ -2877,6 +2879,7 @@ https://www.cloudflare.com/ips-v6</content>
           <port/>
           <verify/>
           <forward_tcp_upstream>0</forward_tcp_upstream>
+          <forward_first>0</forward_first>
           <description/>
         </dot>
       </dots>
@@ -3571,9 +3574,7 @@ https://www.cloudflare.com/ips-v6</content>
   <gateways>
     
   </gateways>
-  <virtualip version="1.0.0">
-    <vip/>
-  </virtualip>
+  <virtualip version="1.0.1"/>
   <cert uuid="3265242f-88bb-43d8-b480-2c8af7b6f09a">
     <refid>620552cda2ced</refid>
     <descr>Web GUI TLS certificate</descr>
@@ -3745,4 +3746,23 @@ key-direction 1</custom_options>
     <password/>
     <syncitems/>
   </hasync>
+  <dnsmasq version="1.0.0">
+    <enable/>
+    <regdhcp/>
+    <regdhcpstatic/>
+    <dhcpfirst/>
+    <strict_order/>
+    <domain_needed/>
+    <no_private_reverse/>
+    <log_queries/>
+    <no_hosts/>
+    <strictbind/>
+    <dnssec/>
+    <regdhcpdomain/>
+    <interface/>
+    <port/>
+    <dns_forward_max/>
+    <cache_size/>
+    <local_ttl/>
+  </dnsmasq>
 </opnsense>
