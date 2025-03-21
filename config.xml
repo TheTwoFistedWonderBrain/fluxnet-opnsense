@@ -308,7 +308,7 @@
     <firmware version="1.0.1">
       <mirror/>
       <flavour/>
-      <plugins>os-adguardhome-maxit,os-api-backup,os-clamav,os-ddclient,os-dmidecode,os-etpro-telemetry,os-git-backup,os-iperf,os-mdns-repeater,os-ntopng,os-postfix,os-redis,os-theme-dracula,os-theme-solarized-community,os-theme-vicuna,os-zerotier</plugins>
+      <plugins>os-adguardhome-maxit,os-api-backup,os-clamav,os-ddclient,os-dmidecode,os-etpro-telemetry,os-git-backup,os-iperf,os-mdns-repeater,os-ntopng,os-postfix,os-redis,os-theme-solarized-community,os-theme-vicuna,os-zerotier</plugins>
       <type/>
       <subscription/>
     </firmware>
@@ -1959,8 +1959,8 @@ AAAEBiwOu7oCoH/E/UswglI83FcRjlSWmkxdq78g/ubWLPOFYzb+as7uAGLaCqvsZrX2jR&#xD;
   </widgets>
   <revision>
     <username>(system)</username>
-    <description>/usr/local/opnsense/mvc/script/run_migrations.php made changes</description>
-    <time>1742519201.6545</time>
+    <description>/usr/local/opnsense/scripts/firmware/register.php made changes</description>
+    <time>1742519201.8037</time>
   </revision>
   <OPNsense>
     <captiveportal version="1.0.2">
